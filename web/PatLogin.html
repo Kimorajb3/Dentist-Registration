@@ -1,0 +1,111 @@
+<!--  =================================================  -->
+<!--     Java III - Index Page                           -->
+<!--     Kimora Bailey - Spring 2022                     -->
+<!--     PatLogin.html                                   -->
+<!--  =================================================  -->
+
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <style>
+            *{
+                font-family: 'Oswald', sans-serif;
+                
+            }
+            body{
+                margin: 0;
+                padding: 0;
+                background-image: url('data:image/jpeg;base64,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');
+                background-size: cover;
+                background-position: center;
+            }
+            .rectangle{
+                width: 320px;
+                height: 420px;
+                background: #5DADE2;
+                color: #fff;
+                top: 50%;
+                left: 50%;
+                position: absolute;
+                transform: translate(-50%, -50%);
+                box-sizing: border-box;
+                padding: 80px 40px;
+                
+            }
+            h1{
+                margin: 0;
+                padding: 0 0 20px;
+                text-align: center;
+                font-size: 22px;
+            }
+            p{
+               margin: 0;
+               padding: 0;
+               font-weight: bold;               
+            }
+            .input{ 
+              width: 100%;
+              margin-bottom: 20px;
+              border: none;
+              border-bottom: 1px solid #fff;
+              background: transparent;
+              outline: none;
+              height: 40px;
+              color: #D4E6F1;
+              font-size: 16px;
+            }
+            .form_button{
+                width: 100%;
+                padding: 0px;
+                font-size: 1.1rem;               
+                cursor: pointer;
+                border: none;
+                outline: none;
+                height: 40px;
+                background: #5499C7;
+                color: #fff;    
+            }
+            a{
+              text-decoration: none;
+              font-size: 14px;
+              line-height: 20px;
+              color: #fff;
+              
+            }
+           
+           </style>
+        <title> MC Dentistry Patient Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+      <div class="rectangle">
+          <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/tkgyrmwc.json"
+    trigger="loop"
+    colors="primary:#fff,secondary:#5499C7"
+    style="width:150px;
+    height:150px;
+    display: block;
+    position: absolute;
+    top: -75px;
+    left: calc(43% - 50px);">
+</lord-icon>
+            <h1> Patient Login </h1> 
+        
+        <form name="PATIENT" action="PatServlet" method="post">
+            
+            <p>Patient ID</p> <input type="text" name="PatID" class="input" required/>
+            
+            <p>Password </p> <input type="password" name="Password" class="input" required/>
+            
+            <button class="form_button" type="submit">Login</button>
+            
+            <a href='DenLogin.html'> Dentist Login </a>
+        </form>
+        </div>
+     </body>
+</html>
